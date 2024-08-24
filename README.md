@@ -12,13 +12,13 @@ This algorithm is non-conventional. Apologies in advance.
 Let's take for example this vector of integers:
 
 The binary representation of this list is:
-
-We split the integers depending on the first bit. We get in the first sublist 5, 2, 6 and in the second 8:
-
+![step0](https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step0.png)
+We split the integers comparing the first bit of each integer. We get in the first sublist 5, 2, 6 and in the second 8:
+![step1](https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step1.png)
 We do the same for the second bit and the two sublists, now the vector is separated in 3 sublists: [2], [6, 5] and [8]:
-
-finally, we finish the job with the last bit:
-
+![step2](https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step2.png)
+finally, we finish the job with the third bit (the fourth bit is not used here since each sublist consist of a single integer):
+![step3](https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step3.png)
 Here you go! A perfectly sorted vector:
 ## Benefits
 - in place
