@@ -30,7 +30,7 @@ Here yah go! A perfectly sorted vector:\
 ## Benefits
 - in place
 - stable
-- the lower and the higher the list, the faster this algorithm will be
+- the lower the maximum, the faster the algorithm 
 ## Time complexity
 Best case: $$\Theta(n)$$
 Average case: $$\Theta(n)$$
