@@ -9,7 +9,8 @@ This algorithm is non-conventional. Apologies in advance.
     - Split the vector in two sublists (INT[i] == 0 or 1)
     - Call the function with the next bit and do the same with the current sublist
 #### Visualize recursivity:
-Let's take for example this vector of integers:
+Let's take for example this vector of integers:\
+<img src="https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/begin.png" alt="begin" width="300"/>
 
 The binary representation of this list is:\
 <img src="https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step0.png" alt="step0" width="300"/>
@@ -23,7 +24,9 @@ We do the same for the second bit and the two sublists, now the vector is separa
 finally, we finish the job with the third bit (the fourth bit is not used here since each sublist consist of a single integer):\
 <img src="https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/step3.png" alt="step3" width="300"/>
 
-Here yah go! A perfectly sorted vector:
+Here yah go! A perfectly sorted vector:\
+<img src="https://github.com/JakeTheRealOne/no-brain-sort/blob/master/assets/end.png" alt="end" width="300"/>
+
 ## Benefits
 - in place
 - stable
