@@ -30,18 +30,13 @@ Here yah go! A perfectly sorted vector:\
 ## Benefits
 - in place
 - stable
-## Time complexity
-Best case:
+## Complexity
+n := Number of element of the list.
 
-$$\Theta(n)$$
+m := Number of bits used in the representation of the maximum of the list.
 
-Average case:
+#### Time:
+$$\Theta(n \times m) \approx \Theta(n)$$
 
-$$\Theta(n)$$
-
-Worst case:
-
-$$\Theta(n)$$
-
-## Space complexity
-$$\Theta(1)$$
+#### Space:
+$$\Theta(\log(m)) \approx \Theta(1)$$
