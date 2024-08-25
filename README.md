@@ -32,8 +32,17 @@ Here yah go! A perfectly sorted vector:\
 - stable
 - the lower the maximum, the faster the algorithm 
 ## Time complexity
-Best case: $$\Theta(n)$$
-Average case: $$\Theta(n)$$
-Worst case: $$\Theta(n)$$
+Best case:
+
+$$\Theta(n)$$
+
+Average case:
+
+$$\Theta(n)$$
+
+Worst case:
+
+$$\Theta(n)$$
+
 ## Space complexity
 $$\Theta(1)$$
