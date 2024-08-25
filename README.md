@@ -2,7 +2,7 @@
 ## Disclaimer
 This algorithm is non-conventional. Apologies in advance.
 ## Explanation
-#### Steps of sorting:
+#### Sorting steps:
 1. Seperate the negative and positive integers in the vector -> $\Theta(1)$
 2. Get the minimum number of bits used to store any integer in the vector
 3. Recursion (i = current bit to treat)

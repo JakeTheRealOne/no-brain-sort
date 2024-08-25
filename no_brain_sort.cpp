@@ -11,7 +11,6 @@
 
 
 # include <bits/stdc++.h>
-#include <climits>
 # include "no_brain_sort.hpp"
 using namespace std;
 
