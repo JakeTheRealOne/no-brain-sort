@@ -35,5 +35,5 @@ Here yah go! A perfectly sorted vector:\
 Best case: $$\Theta(n)$$
 Average case: $$\Theta(n)$$
 Worst case: $$\Theta(n)$$
-## Memory complexity
+## Space complexity
 $$\Theta(1)$$
