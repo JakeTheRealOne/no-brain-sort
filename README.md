@@ -37,4 +37,3 @@ Average case: $$\Theta(n)$$
 Worst case: $$\Theta(n)$$
 ## Memory complexity
 $$\Theta(1)$$
-There is indeed space used for the recursion. This should be $\Theta(logm)$ where m is the number of bits used to represent all the integers in the vector. We round up this complexity to $\Theta(1)$ since m is constant (e.g. max 32 bits for C++ int).

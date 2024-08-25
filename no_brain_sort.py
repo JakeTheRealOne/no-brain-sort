@@ -105,7 +105,10 @@ class NoBrainSort:
 
     def swap(self, index1: int, index2: int) -> None:
         """
-        Swap index1 and index2 in the list of integers
+        Swap two values in the list of integers
+        ARGS:
+            index1: The index of the first value to swap
+            index2: The index of the second value to swap
         """
         self._data[index1], self._data[index2] = self._data[index2], self._data[index1]
 
