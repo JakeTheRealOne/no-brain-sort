@@ -30,7 +30,6 @@ Here yah go! A perfectly sorted vector:\
 ## Benefits
 - in place
 - stable
-- the lower the maximum, the faster the algorithm 
 ## Time complexity
 Best case:
 
